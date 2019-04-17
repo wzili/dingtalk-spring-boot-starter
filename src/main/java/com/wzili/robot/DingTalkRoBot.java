@@ -27,6 +27,7 @@ public class DingTalkRoBot implements DingTalk {
 
     /**
      * 发送文本消息
+     * @param text 文本消息实体
      */
     public void sendTextMessage(TextMessage text){
         send(text.toString());
