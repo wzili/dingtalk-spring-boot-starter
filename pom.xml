@@ -4,6 +4,10 @@
     <groupId>com.wzili</groupId>
     <artifactId>dingtalk-spring-boot-starter</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <name>DingTalk</name>
+    <description>dingtalk-spring-boot-starter</description>
+    <url>https://github.com/wzili/dingtalk-spring-boot-starter</url>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -31,7 +35,6 @@
             <optional>true</optional>
         </dependency>
     </dependencies>
-
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
