@@ -4,9 +4,9 @@
 > Maven 
 ```
 <dependency>
-    <groupId>com.wzili</groupId>
-    <artifactId>dingtalk-spring-boot-starter</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+  <groupId>com.wzili</groupId>
+  <artifactId>dingtalk-spring-boot-starter</artifactId>
+  <version>1.0.0-RELEASES</version>
 </dependency>
 ```
 
