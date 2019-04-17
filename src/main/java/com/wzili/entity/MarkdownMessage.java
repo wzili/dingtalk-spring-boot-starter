@@ -9,14 +9,18 @@ import java.util.List;
 
 /**
  * dingTalk-spring-boot-starter
- * https://open-doc.dingtalk.com/microapp/serverapi2/qf2nxq#-4
+ * https://open-doc.dingtalk.com/microapp/serverapi2/qf2nxq#-6
  * @author : wzili
- * Date: 2019/4/17 10:09
+ * Date: 2019/4/19:10
+ *
  */
 @Data
-public class TextMessage {
+public class MarkdownMessage {
 
-    private String msgType = "text";
+    private String msgType = "markdown";
+
+    // 显示标题
+    private String title;
 
     // 显示内容
     private String content;
@@ -28,14 +32,16 @@ public class TextMessage {
     private List<String> atMobiles;
 
     public String toString() {
-        // text类型
-        JSONObject content = new JSONObject();
-        content.put("content", this.getContent());
+        // markdown类型
+        JSONObject markdownContent = new JSONObject();
+        markdownContent.put("title", this.getTitle());
+        markdownContent.put("text", this.getContent());
 
         JSONObject json = new JSONObject();
         json.put("msgtype", this.getMsgType());
         json.put("at", DingTalkUtils.setAtAllAndMobile(this.getAtMobiles(),this.getIsAtAll()));
-        json.put("text", content);
+        json.put("markdown", markdownContent);
         return json.toJSONString();
     }
+
 }
