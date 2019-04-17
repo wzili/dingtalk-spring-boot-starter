@@ -10,11 +10,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author Administrator
- * @title: DingTalkAutoConfigure
- * @projectName dingtalk-spring-boot-starter
- * @description: TODO
- * @date 2019/4/1710:09
+ * DingTalk-spring-boot-starter
+ * @author : wzili
+ * Date: 2019/4/17 10:09
  */
 @Configuration
 @ConditionalOnClass(DingTalkRoBot.class)

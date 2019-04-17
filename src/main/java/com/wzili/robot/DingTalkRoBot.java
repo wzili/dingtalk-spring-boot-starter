@@ -5,11 +5,9 @@ import com.wzili.entity.TextMessage;
 import okhttp3.*;
 
 /**
- * @author wzili
- * @title: DingTalkRoBot
- * @projectName dingtalk-spring-boot-starter
- * @description: 钉钉机器人
- * @date 2019/4/179:29
+ * dingTalk-spring-boot-starter
+ * @author : wzili
+ * Date: 2019/4/17 10:09
  */
 public class DingTalkRoBot implements DingTalk {
 

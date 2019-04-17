@@ -7,11 +7,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Administrator
- * @title: TextEntity
- * @projectName dingtalk-spring-boot-starter
- * @description: 文本消息实体类
- * @date 2019/4/179:35
+ * dingTalk-spring-boot-starter
+ * @author : wzili
+ * Date: 2019/4/17 10:09
  */
 @Data
 public class TextMessage {

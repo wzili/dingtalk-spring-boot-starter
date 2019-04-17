@@ -4,11 +4,9 @@ import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
- * @author Administrator
- * @title: DingTalkProperties
- * @projectName dingtalk-spring-boot-starter
- * @description: TODO
- * @date 2019/4/1710:11
+ * DingTalk-spring-boot-starter
+ * @author : wzili
+ * Date: 2019/4/17 10:09
  */
 @ConfigurationProperties("com.wzili")
 @Data

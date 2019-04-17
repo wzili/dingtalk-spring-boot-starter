@@ -1,7 +1,9 @@
 package com.wzili;
 
 /**
- * 钉钉接口类
+ * dingTalk-spring-boot-starter
+ * @author : wzili
+ * Date: 2019/4/17 10:09
  */
 public interface DingTalk {
 }
