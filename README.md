@@ -1,7 +1,7 @@
 # dingtalk-spring-boot-starter
 
 ### Spring Boot Dependency
-> maven 
+> Maven 
 ```
 <dependency>
     <groupId>com.wzili</groupId>
