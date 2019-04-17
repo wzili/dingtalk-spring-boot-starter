@@ -4,8 +4,8 @@
 > maven 
 ```
 <dependency>
-    <groupId>com.baomidou</groupId>
-    <artifactId>mybatis-plus-boot-starter</artifactId>
-    <version>3.1.0</version>
+    <groupId>com.wzili</groupId>
+    <artifactId>dingtalk-spring-boot-starter</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
 </dependency>
 ```
