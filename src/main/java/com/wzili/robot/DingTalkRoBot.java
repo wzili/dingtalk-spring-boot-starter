@@ -1,9 +1,8 @@
 package com.wzili.robot;
 
 import com.wzili.DingTalk;
-import com.wzili.entity.TextEntity;
+import com.wzili.entity.TextMessage;
 import okhttp3.*;
-import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  * @author wzili
@@ -31,7 +30,7 @@ public class DingTalkRoBot implements DingTalk {
     /**
      * 发送文本消息
      */
-    public void sendTextMsg(TextEntity text){
+    public void sendTextMessage(TextMessage text){
         send(text.toString());
     }
 

@@ -14,7 +14,7 @@ import java.util.List;
  * @date 2019/4/179:35
  */
 @Data
-public class TextEntity {
+public class TextMessage {
 
     private String msgType = "text";
 
